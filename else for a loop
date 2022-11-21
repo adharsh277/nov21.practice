@@ -1,0 +1,48 @@
+# break statement
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+    if x == "banana":
+        break
+people = ['man', 'women', 'girl']
+for x in people:
+    print(x)
+    if x == 'girl':
+        break
+# range
+for x in range(6):
+    print(x)
+for x in range(1, 9):
+    print(x)
+for x in range(1, 2, 9):
+    print(x)
+    # 5667
+for x in range(6):
+    print(x)
+else:
+    print("finally finished")
+    # else statement
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+else:
+    print("i is no longer less than 6")
+i = 1
+while i < 8:
+    print(i)
+    i += 1
+else:
+    print("1 is ")
+    # for loops
+fruits = ['apple', 'orange', 'grapes']
+for x in fruits:
+    print(x)
+fifa = ['qatar', 'argentina', 'india']
+for x in fifa:
+    print(x)
+for x in "banana":
+    print(x)
+for x in "lionel messi":
+    print(x)

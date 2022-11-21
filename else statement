@@ -1,0 +1,24 @@
+# else statement
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+else:
+    print("i is no longer less than 6")
+i = 1
+while i < 8:
+    print(i)
+    i += 1
+else:
+    print("1 is ")
+    # for loops
+fruits = ['apple', 'orange', 'grapes']
+for x in fruits:
+    print(x)
+fifa = ['qatar', 'argentina', 'india']
+for x in fifa:
+    print(x)
+for x in "banana":
+    print(x)
+for x in "lionel messi":
+    print(x)
